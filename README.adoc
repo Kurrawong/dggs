@@ -4,6 +4,10 @@ This repository contains the source files for human- and machine-readable inform
 
 * https://kurrawong.github.io/dggs/
 
+== License
+
+This repository's content is licenced for reuse using the Creative Commons 4.0 BY license.
+
 == Author
 
 *KurrawongAI* +
