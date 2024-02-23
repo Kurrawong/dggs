@@ -1,0 +1,42 @@
+name: Auto-build HTML
+
+on:
+  push:
+      branches:
+          - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4.1.1
+
+    - name: Build
+      working-directory: ./
+      run: |
+        echo "Making deployment dir - docs/"
+        mkdir docs
+        #
+        echo "Add README to docs/"
+        cp README.adoc docs/
+        sudo apt install asciidoctor ruby -y
+        #
+        echo "Add index to docs/"
+        asciidoctor index.adoc -o docs/index.html
+        #
+        echo "Add def to docs/"
+        asciidoctor def.adoc -o docs/def.html
+        asciidoctor def/as.adoc -o docs/def/as.html
+        asciidoctor def/as-terms.adoc -o docs/def/as-terms.html
+        #
+        echo "Add systems to docs/"
+        asciidoctor systems.adoc -o docs/systems.html
+        asciidoctor systems/auspix.adoc -o docs/systems/auspix.html
+        asciidoctor systems/h3.adoc -o docs/systems/h3.html
+        asciidoctor systems/isea3h.adoc -o docs/systems/isea3h.html
+        asciidoctor systems/rhealpix.adoc -o docs/systems/rhealpix.html
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+         BRANCH: gh-pages
+         FOLDER: docs
