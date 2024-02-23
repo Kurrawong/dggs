@@ -6,7 +6,7 @@ This repository contains the source files for human- and machine-readable inform
 
 == License
 
-This repository's content is licenced for reuse using the Creative Commons 4.0 BY license.
+The contents of this repository are licensed for use with the https://creativecommons.org/licenses/by/4.0/[Creative Commons BY 4.0 license].
 
 == Author
 
