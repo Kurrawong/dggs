@@ -35,6 +35,7 @@ jobs:
         asciidoctor systems/h3.adoc -o docs/systems/h3.html
         asciidoctor systems/isea3h.adoc -o docs/systems/isea3h.html
         asciidoctor systems/rhealpix.adoc -o docs/systems/rhealpix.html
+        asciidoctor systems/tb16pix.adoc -o docs/systems/tb16pix.html
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
