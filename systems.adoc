@@ -1,0 +1,21 @@
+= DGG Systems
+
+1. https://kurrawong.github.io/dggs/systems/rhealpix.adoc[rHealPix]
+2. https://kurrawong.github.io/dggs/systems/h3.adoc[H3]
+3. https://kurrawong.github.io/dggs/systems/isea3h.adoc[Icosahedral Snyder Equal Area aperture 3 Hexagon (ISEA3H)]
+4. https://kurrawong.github.io/dggs/systems/auspix.adoc[AusPIX]
+
+////
+R G Gibb 2016 IOP Conf. Ser.: Earth Environ. Sci. 34 012012. https://doi.org/10.1088/1755-1315/34/1/012012
+
+Gibb, Robert; Raichev, Alexander & Speth, Michael (2016) _The rHEALPix Discrete Global Grid System_. Unpublished paper by Landcare Research NZ Ltd. https://doi.org/10.7931/J2D21VHM
+
+Sahr, K., White, D. & Kimerling, A. J. Geodesic discrete global grid systems. Cartography and Geographic Information Science 30, 121–134 (2003). https://doi.org/10.1559/152304003100011090
+
+
+Isaac Brodsky (2018). _H3: Uber’s Hexagonal Hierarchical Spatial Index_. Web Page publishe by Uber. https://www.uber.com/en-AU/blog/h3/
+
+
+Geoscience Australia (2020). _AusPIX: An Australian Government implimentation of the rHEALPix DGGS in Python_. Version control repository. https://github.com/GeoscienceAustralia/AusPIX_DGGS
+
+////
