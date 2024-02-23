@@ -1,0 +1,12 @@
+= DGGS
+
+This repository contains the source files for human- and machine-readable information about Discrete Global Grid Systems. Please see the website this repository generates:
+
+* https://kurrawong.github.io/dggs/
+
+== Author
+
+*KurrawongAI* +
+_Specialist IT company_ +
+https://kurrawong.ai +
+info@kurrawong.ai
