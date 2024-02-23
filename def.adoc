@@ -1,0 +1,8 @@
+= DGGS Definitional Objects
+
+This page lists Semantic Web definitional objects - ontologies, models, vocabularies and profiles - related to https://en.wikipedia.org/wiki/Discrete_global_grid[Discrete Globval Grid Systems].
+
+== Resources
+
+1. https://kurrawong.github.io/def/as[DGGS Abstract Specification Ontology]
+2. https://kurrawong.github.io/def/as-terms[DGGS Abstract Specification 2.0 Terms and definitions vocabulary]
